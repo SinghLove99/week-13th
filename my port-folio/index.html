@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovepreet's - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav class="nav-menu">
+        <a href="#" aria-current="page">Home</a>
+        <a href="#about-me">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <h1 id="main-title">Welcome to lovepreet's Profile</h1>
+    <div class="content-wrapper">
+        
+        <div class="card" id="about-me">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is LOVEPREET SINGH. I am a student at Seoul Theological University studying WEB development. 
+                I am passionate about learning how to build clean, functional websites, and expanding my tech skills. 
+                Aside from coding, I really enjoy photography, vidio games and playing volleyball and chess.I am also passionate about Ai,coding,travelling,driving and hair syles and hair Art and exploring new ideas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>My Profile</h2>
+            <p>
+                Here is a picture of me: <br>
+                <!-- Replace 'imgs/your-photo.jpg' with your actual picture file path later -->
+                <img src="https://picsum.photos/200" alt=" This is a happy hansone guy" class="profile-img"
+                    style="border-radius: 12px; max-width: 200px; height: auto; box-shadow: 0 4px 10px rgba(0,0,0,0.3); margin-top: 10px;" />
+            </p>
+        </div>
+
+        <div class="card" id="portfolio">
+            <h2>My Hobbies & Projects</h2>
+            
+            <div class="gallery">
+                <div id="hobby-text" class="box" style="margin-bottom: 15px;">
+                    <p>I enjoy my photography.</p>
+                </div>
+                <img id="gallery-img" src="https://picsum.photos/id/1018/400/250" alt="Gallery Image">
+                <br>
+                <button id="next-btn">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+
+    <h2 id="contact">Leave a Message</h2>
+    <form 
+        <label>Name:</label>
+        <input type="text" placeholder="Lovepreet singh" required />
+        <br />
+        <label>Email: </label>
+        <input type="email" placeholder="lvprtggl@gmail.com" required />
+        <br />
+        <label>Message: </label>
+        <br />
+        <textarea rows="5" cols="50" placeholder="feel free leave a note " required></textarea>
+        <br />
+        <button type="submit">Send Message</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
